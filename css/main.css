@@ -1,0 +1,18 @@
+.header__container {
+  max-width: 1370px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.header__row {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+    font-size: 24px;
+    color: #e9204f;
+    font-weight: 700;
+}
+
+li {
+    display: inline-block;
+}
