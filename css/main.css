@@ -3,16 +3,60 @@
   margin: 0 auto;
   padding-top: 40px;
 }
+
+.header__line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .header__row {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 .header__logo {
     font-size: 24px;
-    color: #e9204f;
     font-weight: 700;
+    color: #01996D;
+}
+
+nav {
+  display: flex;
+}
+
+.first__item {
+  display: flex;
+  justify-content: start;
+  padding-right: 300px;
 }
 
 li {
     display: inline-block;
 }
+
+.menu__item {
+  padding: 0 73px 0 0;
+}
+
+.menu__item  a {
+  text-decoration: none;
+  color: #292929;
+}
+
+.last__menu__item a {
+  margin-right: 37px;
+  text-decoration: none;
+  color: #292929;
+}
+
+.btn__menu__item a {
+  text-decoration: none;
+  color: #fff;
+  padding: 13px 50px 13px 50px;
+  border-radius: 4px;
+  background: #01996D;
+}
+
+
+
+
